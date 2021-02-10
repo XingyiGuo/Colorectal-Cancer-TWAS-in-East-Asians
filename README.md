@@ -10,7 +10,7 @@ Main data resources:
 
 3. Published TWAS findings among 125,478 Subjects in European populations (PMID: 33058866)
 
-### over pipeline below contributed by Zhishan Chen
+### Overall pipeline below contributed by Zhishan Chen
 This repository contains analysis code of the Asian CRC_TWAS project.
 This pipeline of RNA-seq analysis is modified based on the pipeline of GTEx Consortium.
 
