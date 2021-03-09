@@ -1,7 +1,7 @@
 # Colorectal-TWAS-in-East-Asians
 ---
 * [Introduction](#Introduction)
-* [Data resource](#Data resource)
+* [Resource](#Resource)
 * [Pipeline](#Pipeline)
 
 <a name="Introduction"/>
@@ -11,9 +11,9 @@ In a recent analysis, we have identified 25 genes for which, their genetically p
 
 In a follow-up work, we reported inaugural results from a large CRC TWAS among 23,572 CRC cases and 48,700 controls of East Asian ancestry from the Asia Colorectal Cancer Consortium (ACCC). We genotyped DNA samples from 364 East Asian CRC patients and conducted RNA-sequencing on their tumor-adjacent normal colon tissues to build statistical models of genetically predicted gene expression. We applied these predictive models and GWAS summary statistics from East Asian patients (23,572 cases and 48,700 controls) to investigate associations of predicted gene expression with CRC risk. We have submitted this work for publication.Specific Aim: To search for colorectal cancer (CRC) susceptibility genes, we performed a transcriptome-wide association study (TWAS) in East-Asians. 
 
-<a name="Data resource"/>
+<a name="Resource"/>
 
-# Data resource
+# Resource
 
 1. GWAS sumamry statistics data from ACCC including 23,572 cases and 48,700 controls of East Asians
 
