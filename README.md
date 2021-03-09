@@ -21,8 +21,6 @@ In a follow-up work, we reported inaugural results from a large CRC TWAS among 2
 
 3. Published TWAS findings among 125,478 Subjects in European populations (PMID: 33058866)
 
-##@ Overall pipeline below 
-This repository contains analysis code of the Asian CRC_TWAS project.
 
 
 <a name="Pipeline"/>
@@ -31,19 +29,17 @@ This repository contains analysis code of the Asian CRC_TWAS project.
 ---
 Contributed by Zhishan Chen, 2021
 
-### step1: gene expression data processing (
+### step1: gene expression data processing
 ### This pipeline of RNA-seq analysis is modified based on the pipeline of GTEx Consortium.
-References from GTEx
-
+#### References from GTEx 
+```
 https://github.com/broadinstitute/gtex-pipeline/blob/master/rnaseq/README.md https://github.com/broadinstitute/gtex-pipeline/tree/master/qtl
-
-reference genome
 
 ftp://ftp.broadinstitute.org/pub/seq/references/Homo_sapiens_assembly19.fasta
 
+```
 
-
-### Reference annotation: the GENCODE v19 annotation gtf
+#### Reference annotation: the GENCODE v19 annotation gtf
 
 #The GENCODE annotation should be patched to use Ensembl chromosome names:
 ```
@@ -58,7 +54,7 @@ bash index.sh
 ```
 bash run_STAR.sh
 ```
-aggregating outputs
+#### aggregating outputs
 
 ####  Sample-level outputs in GCT format can be concatenated using combine_GCTs.py(from GTEx)
 ```
