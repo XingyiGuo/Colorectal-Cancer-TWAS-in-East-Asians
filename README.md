@@ -33,8 +33,8 @@ Contributed by Zhishan Chen, 2021
 ### This pipeline of RNA-seq analysis is modified based on the pipeline of GTEx Consortium.
 #### References from GTEx 
 ```
-https://github.com/broadinstitute/gtex-pipeline/blob/master/rnaseq/README.md https://github.com/broadinstitute/gtex-pipeline/tree/master/qtl
-
+https://github.com/broadinstitute/gtex-pipeline/blob/master/rnaseq/README.md 
+https://github.com/broadinstitute/gtex-pipeline/tree/master/qtl
 ftp://ftp.broadinstitute.org/pub/seq/references/Homo_sapiens_assembly19.fasta
 
 ```
