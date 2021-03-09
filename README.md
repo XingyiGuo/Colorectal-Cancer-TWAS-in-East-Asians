@@ -1,7 +1,7 @@
 # Colorectal-TWAS-in-East-Asians
 ---
 * [Introduction](#Introduction)
-* [Data_resource](#Data resource)
+* [Resource](#Data resource)
 * [Pipeline](#Pipeline)
 
 <a name="Introduction"/>
@@ -13,7 +13,7 @@ In a follow-up work, we reported inaugural results from a large CRC TWAS among 2
 
 <a name="Data resource"/>
 
-# Data_resource
+# Resource
 
 1. GWAS sumamry statistics data from ACCC including 23,572 cases and 48,700 controls of East Asians
 
