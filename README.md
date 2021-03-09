@@ -1,7 +1,7 @@
 # Colorectal-TWAS-in-East-Asians
 ---
 * [Introduction](#Introduction)
-* [Resource](#Data resource)
+* [Introduction](#Introduction)
 * [Pipeline](#Pipeline)
 
 <a name="Introduction"/>
