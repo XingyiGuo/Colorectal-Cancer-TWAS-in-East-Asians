@@ -1,5 +1,5 @@
 # Colorectal-TWAS-in-East-Asians
-==
+---
 * [Introduction](#Introduction)
 * [Data resource](#Data resource)
 * [Pipeline](#Pipeline)
@@ -30,7 +30,7 @@ This repository contains analysis code of the Asian CRC_TWAS project.
 # Pipeline 
 ---
 contributed by Zhishan Chen, 2021
---- 
+
 ### step1: gene expression data processing (
 ### This pipeline of RNA-seq analysis is modified based on the pipeline of GTEx Consortium.
 References from GTEx
