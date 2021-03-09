@@ -1,7 +1,7 @@
 # Colorectal-TWAS-in-East-Asians
 ---
 * [Introduction](#Introduction)
-* [Data resource](#Data resource)
+* [Data_resource](#Data resource)
 * [Pipeline](#Pipeline)
 
 <a name="Introduction"/>
@@ -13,7 +13,7 @@ In a follow-up work, we reported inaugural results from a large CRC TWAS among 2
 
 <a name="Data resource"/>
 
-# Data resource
+# Data_resource
 
 1. GWAS sumamry statistics data from ACCC including 23,572 cases and 48,700 controls of East Asians
 
@@ -29,7 +29,7 @@ This repository contains analysis code of the Asian CRC_TWAS project.
 
 # Pipeline 
 ---
-contributed by Zhishan Chen, 2021
+Contributed by Zhishan Chen, 2021
 
 ### step1: gene expression data processing (
 ### This pipeline of RNA-seq analysis is modified based on the pipeline of GTEx Consortium.
@@ -65,7 +65,7 @@ aggregating outputs
 python3 combine_GCTs.py samples_gct.list tpm.gct
 python3 combine_GCTs.py samples_gct.list_counts count.gct
 ```
-#### expression normalization
+#### Expression normalization
 ```
 python3.7 eqtl_prepare_expression.py tpm.gct count.gct gencode.v19.annotation.patched_contigs.genes.gtf sample.list chromsome_ID.list  prefix.output --tpm_threshold 0.1 --count_threshold 6 --sample_frac_threshold 0.2 --normalization_method tmm
 convert sample ID
